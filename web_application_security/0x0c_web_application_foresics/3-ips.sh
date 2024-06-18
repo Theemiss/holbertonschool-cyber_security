@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "fail" auth.log
+cat auth.log | grep "Accepted password for root" | awk '{print $11}' | sort -u | wc -l
