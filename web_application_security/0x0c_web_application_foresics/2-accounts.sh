@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "fail" auth.log
+uid=0
