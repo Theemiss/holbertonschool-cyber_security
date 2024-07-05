@@ -7,8 +7,5 @@ class HelloWorld
       puts @message
     end
   end
-  
-  # Create an instance of HelloWorld and call the print_hello method
-  hello = HelloWorld.new
-  hello.print_hello
+
   
